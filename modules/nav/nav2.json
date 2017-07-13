@@ -1,0 +1,20 @@
+[
+  {
+    "name":"index",
+    "href":"#"
+  },
+  {
+    "name":"about",
+    "href":"about.html",
+    "children":[
+      {
+        "name":"news",
+        "href":"news.html"
+      },
+      {
+        "name":"more",
+        "href":"more.html"
+      }
+    ]
+  }
+]

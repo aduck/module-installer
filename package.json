@@ -1,0 +1,20 @@
+{
+  "name": "module-installer",
+  "version": "0.0.1",
+  "description": "网页模块化加载工具",
+  "main": "index.js",
+  "bin": {
+    "mi": "./bin/index.js"
+  },
+  "scripts": {
+
+  },
+  "author": "higher",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "cheerio": "^1.0.0-rc.2",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}

@@ -1,0 +1,9 @@
+nav
+  ul
+    each item in data
+      li
+        a(href=`${item.href}`) #{item.name}
+        if item.children
+          div.sub
+            each child in item.children
+              a(href=`${child.href}`) #{child.name}

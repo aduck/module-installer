@@ -1,0 +1,20 @@
+[
+  {
+    "name":"首页",
+    "href":"#"
+  },
+  {
+    "name":"关于我们",
+    "href":"about.html",
+    "children":[
+      {
+        "name":"新闻",
+        "href":"news.html"
+      },
+      {
+        "name":"更多",
+        "href":"more.html"
+      }
+    ]
+  }
+]
